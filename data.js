@@ -1,39 +1,39 @@
 export const tweetsData = [
   {
     handle: `@EmilioDelgado`,
-    profilePic: `/images/descarga (7).jpg`,
+    profilePic: `descarga (7).jpg`,
     likes: 3830,
     retweets: 75,
     tweetText: `No, cariño, tú no eres fea; tú eres del montón.`,
     replies: [
       {
         handle: `@BelenLopezVazquez`,
-        profilePic: `/images/descarga (8).jpg`,
+        profilePic: `descarga (8).jpg`,
         tweetText: `¿Cómo del montón?`,
       },
       {
         handle: `@EmilioDelgado`,
-        profilePic: `/images/descarga (7).jpg`,
+        profilePic: `descarga (7).jpg`,
         tweetText: `O sea, del montón bueno. Porque hay un montón bueno y un montón malo. Pues tú eres del bueno. Luego está el montón que te cagas, pero esas están aparte. Además, ¿qué estoy diciendo? Si a mí lo que me gusta es una mujer inteligente... que tú tampoco lo eres, pero a mí me gustas.`,
       },
       {
         handle: `@BelenLopezVazquez`,
-        profilePic: `/images/descarga (8).jpg`,
+        profilePic: `descarga (8).jpg`,
         tweetText: `¿O sea que me estás llamando tonta?`,
       },
       {
         handle: `@EmilioDelgado`,
-        profilePic: `/images/descarga (7).jpg`,
+        profilePic: `descarga (7).jpg`,
         tweetText: `Sí... o sea, no, no, no, cariño. Una tía tonta era Alicia, que estaba más buena que tú, sí, pero era tonta. Y luego está Lucía, que también está más buena que tú y es más lista.`,
       },
       {
         handle: `@BelenLopezVazquez`,
-        profilePic: `/images/descarga (8).jpg`,
+        profilePic: `descarga (8).jpg`,
         tweetText: `¿Pero qué me estás diciendo? ¿Que te gusta Lucía?`,
       },
       {
         handle: `@EmilioDelgado`,
-        profilePic: `/images/descarga (7).jpg`,
+        profilePic: `descarga (7).jpg`,
         tweetText: `¡Noooo! Son ejemplos para que veas los tipos de mujeres que hay. Tú eres casi lista y casi guapa, o sea, del montón. Del montón bueno.`,
       },
     ],
@@ -43,14 +43,14 @@ export const tweetsData = [
   },
   {
     handle: `@AmadorRivas 💎`,
-    profilePic: `/images/p1.webp`,
+    profilePic: `p1.webp`,
     likes: 320,
     retweets: 45,
     tweetText: `¡Que soy un tieso! Pero con clase, primo.`,
     replies: [
       {
         handle: `@AntonioRecio`,
-        profilePic: `/images/descarga.jpg`,
+        profilePic: `descarga.jpg`,
         tweetText: `¡Tieso y sin género!`,
       },
     ],
@@ -60,14 +60,14 @@ export const tweetsData = [
   },
   {
     handle: `@AntonioRecio`,
-    profilePic: `/images/descarga.jpg`,
+    profilePic: `descarga.jpg`,
     likes: 500,
     retweets: 90,
     tweetText: `Antonio Recio, mayorista no limpio pescado.`,
     replies: [
       {
         handle: `@Coque`,
-        profilePic: `/images/Coque_9.PNG.webp`,
+        profilePic: `Coque_9.PNG.webp`,
         tweetText: `¿Y si te traigo un camión lleno de gambas?`,
       },
     ],
@@ -77,7 +77,7 @@ export const tweetsData = [
   },
   {
     handle: `@PaquitaSalas`,
-    profilePic: `/images/descarga (1).jpg`,
+    profilePic: `descarga (1).jpg`,
     likes: 850,
     retweets: 120,
     tweetText: `Cariño, hay que reinventarse o morir.`,
@@ -88,14 +88,14 @@ export const tweetsData = [
   },
   {
     handle: `@Luisma`,
-    profilePic: `/images/descarga (2).jpg`,
+    profilePic: `descarga (2).jpg`,
     likes: 700,
     retweets: 110,
     tweetText: `Que el Luisma es tonto, el Luisma se ha metido de to y se ha quedao tonto...`,
     replies: [
       {
         handle: `@Barajas`,
-        profilePic: `/images/descarga (3).jpg`,
+        profilePic: `descarga (3).jpg`,
         tweetText: `Y yo soy su colega.`,
       },
     ],
@@ -105,14 +105,14 @@ export const tweetsData = [
   },
   {
     handle: `@MauricioColmenero`,
-    profilePic: `/images/descarga (4).jpg`,
+    profilePic: `descarga (4).jpg`,
     likes: 650,
     retweets: 100,
     tweetText: `Aquí se viene a consumir, ¡coño ya!`,
     replies: [
       {
         handle: `@Chema`,
-        profilePic: `/images/descarga (5).jpg`,
+        profilePic: `descarga (5).jpg`,
         tweetText: `Mauricio, un poco de respeto.`,
       },
     ],
@@ -122,14 +122,14 @@ export const tweetsData = [
   },
   {
     handle: `@RobertoAlonso`,
-    profilePic: `/images/descarga (6).jpg`,
+    profilePic: `descarga (6).jpg`,
     likes: 510,
     retweets: 95,
     tweetText: `¡Vamos, no me jodas!`,
     replies: [
       {
         handle: `@EmilioDelgado`,
-        profilePic: `/images/descarga (7).jpg`,
+        profilePic: `descarga (7).jpg`,
         tweetText: `Un poquito de por favor…`,
       },
     ],
@@ -139,14 +139,14 @@ export const tweetsData = [
   },
   {
     handle: `@BelenLopezVazquez`,
-    profilePic: `/images/descarga (8).jpg`,
+    profilePic: `descarga (8).jpg`,
     likes: 430,
     retweets: 75,
     tweetText: `¡Vete un poquito a la mierda!`,
     replies: [
       {
         handle: `@EmilioDelgado`,
-        profilePic: `/images/descarga (7).jpg`,
+        profilePic: `descarga (7).jpg`,
         tweetText: `Vale, pero con un poquito de por favor...`,
       },
     ],
@@ -156,14 +156,14 @@ export const tweetsData = [
   },
   {
     handle: `@FermínTrujillo`,
-    profilePic: `/images/descarga (9).jpg`,
+    profilePic: `descarga (9).jpg`,
     likes: 280,
     retweets: 55,
     tweetText: `¡Me cago en mi vida, Vicente!`,
     replies: [
       {
         handle: `@Vicente`,
-        profilePic: `/images/descarga (10).jpg`,
+        profilePic: `descarga (10).jpg`,
         tweetText: `Tranquilo, Fermín. Que hay Champions.`,
       },
     ],
@@ -173,14 +173,14 @@ export const tweetsData = [
   },
   {
     handle: `@JudithBecker`,
-    profilePic: `/images/descarga (11).jpg`,
+    profilePic: `descarga (11).jpg`,
     likes: 360,
     retweets: 48,
     tweetText: `Hoy tengo terapia grupal. Se aceptan traumas.`,
     replies: [
       {
         handle: `@AmadorRivas`,
-        profilePic: `/images/p1.webp`,
+        profilePic: `p1.webp`,
         tweetText: `¡Merengue, merengue!`,
       },
     ],
@@ -190,14 +190,14 @@ export const tweetsData = [
   },
   {
     handle: `@DoñaFina`,
-    profilePic: `/images/descarga (12).jpg`,
+    profilePic: `descarga (12).jpg`,
     likes: 180,
     retweets: 30,
     tweetText: `¡Que os pincho!`,
     replies: [
       {
         handle: `@Coque`,
-        profilePic: `/images/Coque_9.PNG.webp`,
+        profilePic: `Coque_9.PNG.webp`,
         tweetText: `Señora, guarde la aguja.`,
       },
     ],
@@ -207,7 +207,7 @@ export const tweetsData = [
   },
   {
     handle: `@Coque`,
-    profilePic: `/images/Coque_9.PNG.webp`,
+    profilePic: `Coque_9.PNG.webp`,
     likes: 290,
     retweets: 45,
     tweetText: `Yo solo quería ser electricista, tío.`,
@@ -218,14 +218,14 @@ export const tweetsData = [
   },
   {
     handle: `@JosemiCuesta`,
-    profilePic: `/images/descarga (13).jpg`,
+    profilePic: `descarga (13).jpg`,
     likes: 420,
     retweets: 80,
     tweetText: `Vale, pero tranquilito/a, ¿eh?`,
     replies: [
       {
         handle: `@JuanCuesta`,
-        profilePic: `/images/descarga (14).jpg`,
+        profilePic: `descarga (14).jpg`,
         tweetText: `Josemi, ¿tranquilito? ¡Si estoy que me salen chispas!`,
       },
     ],
