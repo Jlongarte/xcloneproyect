@@ -1,4 +1,4 @@
-html,
+/* ===== GLOBAL ===== */
 body {
   margin: 0;
   padding: 0;
@@ -22,23 +22,19 @@ i {
   color: limegreen;
 }
 
-
+/* ===== MAIN ===== */
 main {
-  width: 290px;
+  max-width: 290px;
   margin: 0 auto;
   padding: 40px;
 }
 
-header {
-  padding-bottom: 25px;
-}
-
+/* ===== TWEET INPUT AREA ===== */
 .tweet-input-area {
   display: flex;
   align-items: flex-start;
   gap: 10px;
 }
-
 
 textarea {
   border: none;
@@ -63,7 +59,7 @@ button {
   font-weight: 600;
 }
 
-
+/* ===== TWEETS ===== */
 .tweet {
   border-top: 1px solid lightgray;
   padding: 20px 0 0 0;
@@ -89,11 +85,10 @@ button {
   gap: 4px;
 }
 
-.tweet-reply {
-  border-top: 1px solid lightgray;
-  padding: 20px 0 0 0px;
-  margin: 10px 0 10px 40px;
-  width: 80%;
+.tweet-text {
+  width: 207px;
+  font-size: 14px;
+  line-height: 20px;
 }
 
 .handle {
@@ -102,13 +97,6 @@ button {
   color: #555;
   margin-top: 0;
 }
-
-.tweet-text {
-  width: 207px;
-  font-size: 14px;
-  line-height: 20px;
-}
-
 
 .profile-pic {
   border: 1px solid lightgray;
@@ -122,6 +110,7 @@ button {
   display: none;
 }
 
+/* ===== REPLY INPUT AREA ===== */
 .reply-input-area {
   display: flex;
   align-items: center;
@@ -162,10 +151,13 @@ button {
   transition: background-color 0.2s ease;
 }
 
+/* ===== TWEET REPLIES ===== */
 .tweet-reply {
   display: flex;
   padding: 8px 0;
   border-top: 1px solid #e6ecf0;
+  margin-left: 40px;
+  width: 80%;
 }
 
 .tweet-reply .tweet-inner {
@@ -189,4 +181,85 @@ button {
 .tweet-reply .tweet-text {
   font-size: 14px;
   color: #14171a;
+}
+
+/* ===== MEDIA QUERY: TABLET (481px - 767px) ===== */
+
+@media (min-width: 481px) and (max-width: 767px) {
+  main {
+    max-width: 100%;
+    padding: 30px;
+  }
+
+  .feed {
+    width: 100%;
+  }
+
+  .tweet-details {
+    width: 100%;
+  }
+
+  .tweet-text {
+    width: 90%;
+  }
+
+  .tweet-reply {
+    margin-left: 20px;
+    width: 90%;
+  }
+}
+
+/* ===== MEDIA QUERY: MOBILE (≤480px) ===== */
+
+@media (max-width: 480px) {
+  main {
+    max-width: 100%;
+    padding: 20px;
+  }
+
+  textarea {
+    font-size: 18px;
+    line-height: 28px;
+    height: 50px;
+  }
+
+  button {
+    font-size: 18px;
+    padding: 8px 16px;
+  }
+
+  .tweet-text {
+    width: 100%;
+    font-size: 13px;
+    line-height: 18px;
+  }
+
+  .tweet-details {
+    width: 100%;
+  }
+
+  .tweet-reply {
+    margin-left: 15px;
+    width: 95%;
+  }
+
+  .profile-pic {
+    width: 40px;
+    height: 40px;
+  }
+
+  .tweet-reply .profile-pic {
+    width: 30px;
+    height: 30px;
+  }
+
+  .reply-input-area input {
+    font-size: 13px;
+    padding: 6px 10px;
+  }
+
+  .reply-input-area button {
+    font-size: 14px;
+    padding: 5px 10px;
+  }
 }
