@@ -69,7 +69,7 @@ function handleTweetBtnClick() {
   if (tweetInput.value.trim()) {
     tweetsData.unshift({
       handle: `@troll123134`,
-      profilePic: `unnamed.png`,
+      profilePic: `/images/unnamed.png`,
       likes: 0,
       retweets: 0,
       tweetText: tweetInput.value.trim(),
@@ -103,7 +103,7 @@ function handleSendReplyClick(tweetId) {
     const targetTweetObj = tweetsData.find((tweet) => tweet.uuid === tweetId);
     targetTweetObj.replies.push({
       handle: "@troll123134",
-      profilePic: "unnamed.png",
+      profilePic: "/images/unnamed.png",
       tweetText: replyText,
     });
     saveTweetsToLocalStorage();
@@ -139,7 +139,7 @@ function getFeedHtml() {
     // Formulario para responder
     repliesHtml += `
 <div class="reply-input-area">
-  <img src="unnamed.png" class="profile-pic">
+  <img src="/images/unnamed.png" class="profile-pic">
   <input type="text" placeholder="Escribe tu respuesta..." id="reply-input-${tweet.uuid}">
   <button data-send-reply="${tweet.uuid}">Responder</button>
 </div>`;
